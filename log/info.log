@@ -1,0 +1,10 @@
+[2017-09-22 09:11:48.909] [INFO] startup - Express server listening on port  3000  with pid  8166
+[2017-09-22 09:11:48.911] [INFO] startup - Express server listening on port  3000  with pid  8160
+[2017-09-22 09:11:48.921] [INFO] startup - Express server listening on port  3000  with pid  8154
+[2017-09-22 09:11:48.928] [INFO] startup - Express server listening on port  3000  with pid  8168
+[2017-09-22 09:11:53.542] [INFO] index - This is in the index module
+[2017-09-22 09:11:53.719] [ERROR] app - Something went wrong: { view: 
+   { name: 'inde',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }

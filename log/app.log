@@ -1,0 +1,119 @@
+[2017-09-22 08:45:02.353] [INFO] startup - Express server listening on port  3000  with pid  4060
+[2017-09-22 08:45:02.355] [INFO] startup - Express server listening on port  3000  with pid  4047
+[2017-09-22 08:45:02.356] [INFO] startup - Express server listening on port  3000  with pid  4059
+[2017-09-22 08:45:02.364] [INFO] startup - Express server listening on port  3000  with pid  4053
+[2017-09-22 08:46:17.793] [DEBUG] index - This is in the index module
+[2017-09-22 08:46:18.308] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 170 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:46:18.362] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:46:22.512] [DEBUG] index - This is in the index module
+[2017-09-22 08:46:22.544] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 170 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:46:22.581] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 200 110 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:46:45.126] [DEBUG] index - This is in the index module
+[2017-09-22 08:46:45.149] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:46:45.188] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:47:22.847] [DEBUG] index - This is in the index module
+[2017-09-22 08:47:22.869] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:47:22.899] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:48:10.936] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:8:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:208:9
+[2017-09-22 08:48:10.995] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /users HTTP/1.1" 500 1149 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:48:11.028] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/users" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:48:55.532] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:14:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:176:38)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+[2017-09-22 08:48:55.562] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /users/broken HTTP/1.1" 500 1158 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:48:55.602] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/users/broken" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:54:47.605] [DEBUG] index - This is in the index module
+[2017-09-22 08:54:47.861] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:54:47.908] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:54:52.775] [DEBUG] index - This is in the index module
+[2017-09-22 08:54:52.810] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:54:52.868] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:55:22.657] [DEBUG] index - This is in the index module
+[2017-09-22 08:55:22.678] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:55:22.712] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:56:12.978] [INFO] startup - Express server listening on port  3000  with pid  7088
+[2017-09-22 08:56:12.982] [INFO] startup - Express server listening on port  3000  with pid  7094
+[2017-09-22 08:56:12.983] [INFO] startup - Express server listening on port  3000  with pid  7106
+[2017-09-22 08:56:13.025] [INFO] startup - Express server listening on port  3000  with pid  7100
+[2017-09-22 08:59:34.367] [DEBUG] index - This is in the index module
+[2017-09-22 08:59:34.626] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:59:34.673] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:59:39.396] [DEBUG] index - This is in the index module
+[2017-09-22 08:59:39.427] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:59:39.459] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:59:43.844] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:8:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:208:9
+[2017-09-22 08:59:43.869] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /users HTTP/1.1" 500 1149 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 08:59:43.899] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/users" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:07:57.805] [DEBUG] index - This is in the index module
+[2017-09-22 09:07:58.059] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:07:58.116] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:09.721] [DEBUG] index - This is in the index module
+[2017-09-22 09:08:09.751] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:09.795] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:10.954] [DEBUG] index - This is in the index module
+[2017-09-22 09:08:10.980] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:11.007] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:17.512] [INFO] startup - Express server listening on port  3000  with pid  7739
+[2017-09-22 09:08:17.514] [INFO] startup - Express server listening on port  3000  with pid  7745
+[2017-09-22 09:08:17.514] [INFO] startup - Express server listening on port  3000  with pid  7733
+[2017-09-22 09:08:17.524] [INFO] startup - Express server listening on port  3000  with pid  7747
+[2017-09-22 09:08:23.395] [ERROR] index - This is in the index module
+[2017-09-22 09:08:23.576] [ERROR] app - Something went wrong: { view: 
+   { name: 'ind',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
+[2017-09-22 09:08:23.649] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 500 1341 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:08:23.682] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:09:47.628] [INFO] startup - Express server listening on port  3000  with pid  7925
+[2017-09-22 09:09:47.631] [INFO] startup - Express server listening on port  3000  with pid  7931
+[2017-09-22 09:09:47.639] [INFO] startup - Express server listening on port  3000  with pid  7932
+[2017-09-22 09:09:47.645] [INFO] startup - Express server listening on port  3000  with pid  7938
+[2017-09-22 09:09:52.331] [INFO] index - This is in the index module
+[2017-09-22 09:09:52.504] [ERROR] app - Something went wrong: { view: 
+   { name: 'inde',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
+[2017-09-22 09:09:52.577] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 500 1343 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:09:52.608] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:11:48.909] [INFO] startup - Express server listening on port  3000  with pid  8166
+[2017-09-22 09:11:48.911] [INFO] startup - Express server listening on port  3000  with pid  8160
+[2017-09-22 09:11:48.921] [INFO] startup - Express server listening on port  3000  with pid  8154
+[2017-09-22 09:11:48.928] [INFO] startup - Express server listening on port  3000  with pid  8168
+[2017-09-22 09:11:53.542] [INFO] index - This is in the index module
+[2017-09-22 09:11:53.719] [ERROR] app - Something went wrong: { view: 
+   { name: 'inde',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
+[2017-09-22 09:11:53.791] [DEBUG] app - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 500 1343 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
+[2017-09-22 09:11:53.828] [DEBUG] app - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"

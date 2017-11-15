@@ -1,0 +1,49 @@
+[2017-09-22 08:48:10.936] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:8:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:208:9
+[2017-09-22 08:48:55.532] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:14:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:176:38)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+[2017-09-22 08:59:43.844] [ERROR] app - Something went wrong: ReferenceError: log is not defined
+    at Object.handle (/home/traning/log4js-example/routes/users.js:8:3)
+    at next_layer (/home/traning/log4js-example/node_modules/express/lib/router/route.js:103:13)
+    at Route.dispatch (/home/traning/log4js-example/node_modules/express/lib/router/route.js:107:5)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:205:24
+    at Function.proto.process_params (/home/traning/log4js-example/node_modules/express/lib/router/index.js:269:12)
+    at next (/home/traning/log4js-example/node_modules/express/lib/router/index.js:199:19)
+    at Function.proto.handle (/home/traning/log4js-example/node_modules/express/lib/router/index.js:151:3)
+    at Layer.router (/home/traning/log4js-example/node_modules/express/lib/router/index.js:24:12)
+    at trim_prefix (/home/traning/log4js-example/node_modules/express/lib/router/index.js:240:15)
+    at /home/traning/log4js-example/node_modules/express/lib/router/index.js:208:9
+[2017-09-22 09:08:23.395] [ERROR] index - This is in the index module
+[2017-09-22 09:08:23.576] [ERROR] app - Something went wrong: { view: 
+   { name: 'ind',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
+[2017-09-22 09:09:52.504] [ERROR] app - Something went wrong: { view: 
+   { name: 'inde',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
+[2017-09-22 09:11:53.719] [ERROR] app - Something went wrong: { view: 
+   { name: 'inde',
+     root: '/home/traning/log4js-example/views',
+     defaultEngine: 'jade',
+     ext: '.jade' } }
